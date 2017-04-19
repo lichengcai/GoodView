@@ -1,4 +1,4 @@
-package com.wx.goodview.demo.view;
+package com.cc.view;
 
 import android.content.Context;
 import android.graphics.Canvas;

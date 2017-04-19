@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wx.goodview.demo;
+package com.cc;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -23,6 +23,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.wx.goodview.GoodView;
+import com.wx.goodview.demo.R;
 
 /**
  * Demo

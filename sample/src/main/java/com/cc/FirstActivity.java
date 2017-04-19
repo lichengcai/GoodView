@@ -1,9 +1,9 @@
-package com.wx.goodview.demo;
+package com.cc;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.wx.goodview.demo.view.SloopView;
+import com.cc.view.SloopView;
 
 public class FirstActivity extends AppCompatActivity {
     private SloopView mSloopView;

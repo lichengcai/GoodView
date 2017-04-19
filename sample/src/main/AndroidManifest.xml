@@ -8,10 +8,10 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.cc.MainActivity">
 
         </activity>
-        <activity android:name=".FirstActivity">
+        <activity android:name="com.cc.FirstActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
