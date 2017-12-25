@@ -11,7 +11,13 @@
         <activity android:name="com.cc.MainActivity">
 
         </activity>
-        <activity android:name="com.cc.FirstActivity">
+        <activity android:name="com.cc.HenCoderCavansActivity">
+
+        </activity>
+        <activity
+            android:name="com.cc.HenCoderPaintActivity"
+            android:hardwareAccelerated="false"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

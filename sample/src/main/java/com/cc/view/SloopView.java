@@ -45,20 +45,20 @@ public class SloopView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         //绘制点
-        canvas.drawPoint(100,100,mPaint);
+        canvas.drawPoint(100, 100, mPaint);
         //绘制矩形
-        canvas.drawRect(100,150,200,300,mPaint);
+        canvas.drawRect(100, 150, 200, 300, mPaint);
         //绘制圆角矩形
-        RectF rectF = new RectF(100,400,300,500);
-        canvas.drawRoundRect(rectF,250,200,mPaint);
+        RectF rectF = new RectF(100, 400, 300, 500);
+        canvas.drawRoundRect(rectF, 250, 200, mPaint);
         //绘制圆
-        canvas.drawCircle(150,600,50,mPaint);
+        canvas.drawCircle(150, 600, 50, mPaint);
         //绘制圆弧
-        RectF rectF1 = new RectF(100,700,400,1000);
+        RectF rectF1 = new RectF(100, 700, 400, 1000);
         mPaint.setColor(Color.GRAY);
-        canvas.drawRect(rectF1,mPaint);//矩形背景
+        canvas.drawRect(rectF1, mPaint);//矩形背景
         mPaint.setColor(Color.BLUE);
-        canvas.drawArc(rectF1,0,250,true,mPaint);
+        canvas.drawArc(rectF1, 0, 250, true, mPaint);
 
     }
 }

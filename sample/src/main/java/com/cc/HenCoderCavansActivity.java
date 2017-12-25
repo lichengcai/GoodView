@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import com.cc.view.SloopView;
 
-public class FirstActivity extends AppCompatActivity {
+public class HenCoderCavansActivity extends AppCompatActivity {
     private SloopView mSloopView;
 
     @Override
